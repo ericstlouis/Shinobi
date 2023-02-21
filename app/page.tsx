@@ -1,7 +1,11 @@
+import About from "./components/sections/About";
+import Work from "./components/sections/Work";
+
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      hello world
-    </h1>
+    <div className="h-screen flex">
+      <About />
+      <Work />  
+    </div>
   )
 }
