@@ -8,8 +8,16 @@ module.exports = {
     // // Or if using `src` directory:
     // "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: 'class',
+  darkMode: 'media',
   theme: {
+    fontFamily: {
+      manrope: ['Manrope', 'sans-serif'],
+    }, 
+    screens: {
+      phone: '480px',
+      tabllet: '768px',
+      PC: '976px',
+    },
     extend: {},
   },
   plugins: [],

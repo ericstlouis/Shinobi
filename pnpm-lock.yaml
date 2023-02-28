@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ant-design/colors': ^7.0.0
   '@next/font': 13.1.6
   '@types/node': 18.14.0
   '@types/react': 18.0.28
@@ -12,10 +13,12 @@ specifiers:
   postcss: ^8.4.21
   react: 18.2.0
   react-dom: 18.2.0
+  react-icons: ^4.7.1
   tailwindcss: ^3.2.7
   typescript: 4.9.5
 
 dependencies:
+  '@ant-design/colors': 7.0.0
   '@next/font': 13.1.6
   '@types/node': 18.14.0
   '@types/react': 18.0.28
@@ -25,6 +28,7 @@ dependencies:
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.7.1_react@18.2.0
   typescript: 4.9.5
 
 devDependencies:
@@ -34,11 +38,22 @@ devDependencies:
 
 packages:
 
+  /@ant-design/colors/7.0.0:
+    resolution: {integrity: sha512-iVm/9PfGCbC0dSMBrz7oiEXZaaGH7ceU40OJEfKmyuzR9R5CRimJYPlRiFtMQGQcbNMea/ePcoIebi4ASGYXtg==}
+    dependencies:
+      '@ctrl/tinycolor': 3.6.0
+    dev: false
+
   /@babel/runtime/7.20.13:
     resolution: {integrity: sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
+    dev: false
+
+  /@ctrl/tinycolor/3.6.0:
+    resolution: {integrity: sha512-/Z3l6pXthq0JvMYdUFyX9j0MaCltlIn6mfh9jLyQwg5aPKxkyNa0PTHtU1AlFXLNk55ZuAeJRcpvq+tmLfKmaQ==}
+    engines: {node: '>=10'}
     dev: false
 
   /@eslint/eslintrc/1.4.1:
@@ -2015,6 +2030,14 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-icons/4.7.1_react@18.2.0:
+    resolution: {integrity: sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:
