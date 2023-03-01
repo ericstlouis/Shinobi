@@ -10,9 +10,7 @@ module.exports = {
   ],
   darkMode: 'media',
   theme: {
-    fontFamily: {
-      manrope: ['Manrope', 'sans-serif'],
-    }, 
+    //  
     screens: {
       phone: '480px',
       tabllet: '768px',
