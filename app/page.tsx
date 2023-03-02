@@ -25,7 +25,7 @@ export default function Home() {
             <div className="flex items-center mb-10">
               <h4 className="font-thin tracking-widest mr-2 ">FIND ME ON: </h4>
               <ul className="flex space-x-3 text-2xl">
-                <Link href={"https://www.youtube.com/"} rel="noopener noreferrer" target="_blank">
+                <Link href={"https://www.youtube.com/channel/UCD9mqozLUlvfCCJzpVgaWbA"} rel="noopener noreferrer" target="_blank">
                 <li className="hover:text-red-500">
                   <AiFillYoutube />    
                 </li>
