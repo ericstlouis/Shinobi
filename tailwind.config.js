@@ -10,12 +10,6 @@ module.exports = {
   ],
   darkMode: 'media',
   theme: {
-    //  
-    screens: {
-      phone: '480px',
-      tabllet: '768px',
-      PC: '976px',
-    },
     extend: {},
   },
   plugins: [],
