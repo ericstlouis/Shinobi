@@ -8,7 +8,7 @@ export default function Home() {
         <div className="flex flex-col items-center h-screen">
 
           {/* heading */}
-          <div className="flex items-center space-x-2 mb-3 mt-16">
+          <div className="flex items-center space-x-2 mb-3 mt-14">
             <Image
               className="rounded-full"
               src="/pengnuin_pfp.jpg"
@@ -25,15 +25,21 @@ export default function Home() {
             <div className="flex items-center mb-10">
               <h4 className="font-thin tracking-widest mr-2 ">FIND ME ON: </h4>
               <ul className="flex space-x-3 text-2xl">
+                <Link href={"https://www.youtube.com/"} rel="noopener noreferrer" target="_blank">
                 <li className="hover:text-red-500">
                   <AiFillYoutube />    
                 </li>
+                </Link>
+                <Link href={"https://twitter.com/shinobi_242"} rel="noopener noreferrer" target="_blank">
                 <li className="hover:text-blue-500">
                   <AiOutlineTwitter />
                 </li>
+                </Link>
+                <Link href={"https://github.com/ericstlouis"} rel="noopener noreferrer" target="_blank">
                 <li className="">
                   <AiFillGithub />
                 </li>
+                </Link>
               </ul>
             </div>
           </div>
