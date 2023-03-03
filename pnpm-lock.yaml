@@ -10,7 +10,9 @@ specifiers:
   eslint: 8.34.0
   eslint-config-next: 13.1.6
   next: 13.1.6
+  portfolio: 'link:'
   postcss: ^8.4.21
+  postcss-100vh-fix: ^1.0.2
   react: 18.2.0
   react-dom: 18.2.0
   react-icons: ^4.7.1
@@ -26,6 +28,7 @@ dependencies:
   eslint: 8.34.0
   eslint-config-next: 13.1.6_7kw3g6rralp5ps6mg3uyzz6azm
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
+  portfolio: 'link:'
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.7.1_react@18.2.0
@@ -34,6 +37,7 @@ dependencies:
 devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
   postcss: 8.4.21
+  postcss-100vh-fix: 1.0.2_postcss@8.4.21
   tailwindcss: 3.2.7_postcss@8.4.21
 
 packages:
@@ -1915,6 +1919,15 @@ packages:
   /pify/2.3.0:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /postcss-100vh-fix/1.0.2_postcss@8.4.21:
+    resolution: {integrity: sha512-t7vqk9AfjI4fXmWlQCEiMZFFhi1hro4WlECINI1TV6Qh1XapUJE++gCmNr95F5Hen/+bz1OmO+SiSB9TZmFmSg==}
+    engines: {node: '>=10.0'}
+    peerDependencies:
+      postcss: ^8.1.0
+    dependencies:
+      postcss: 8.4.21
     dev: true
 
   /postcss-import/14.1.0_postcss@8.4.21:
