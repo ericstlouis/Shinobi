@@ -10,6 +10,7 @@ export default function Home() {
           {/* heading */}
           <div className="flex items-center space-x-2 mb-3 mt-14">
             <Image
+              priority={true}
               className="rounded-full"
               src="/pengnuin_pfp.jpg"
               alt="A pengnuin"
@@ -19,64 +20,59 @@ export default function Home() {
             <h1 className="text-xl font-bold">Shinobi</h1>
           </div>
 
-          {/* subheading */}
+
           <div className="flex flex-col items-center">
             <p className="font-meduim text-lg mb-2 tracking-wide">I try to make stuff</p>
             <div className="flex items-center mb-10">
               <h4 className="font-thin tracking-widest mr-2 ">FIND ME ON: </h4>
               <ul className="flex space-x-3 text-2xl">
-                <Link href={"https://www.youtube.com/channel/UCD9mqozLUlvfCCJzpVgaWbA"} rel="noopener noreferrer" target="_blank">
                 <li className="hover:text-red-500">
+                <Link href={"https://www.youtube.com/channel/UCD9mqozLUlvfCCJzpVgaWbA"} rel="noopener noreferrer" target="_blank">
                   <AiFillYoutube />    
-                </li>
                 </Link>
-                <Link href={"https://twitter.com/shinobi_242"} rel="noopener noreferrer" target="_blank">
+                </li>
                 <li className="hover:text-blue-500">
+                 <Link href={"https://twitter.com/shinobi_242"} rel="noopener noreferrer" target="_blank">
                   <AiOutlineTwitter />
+                  </Link>
                 </li>
-                </Link>
-                <Link href={"https://github.com/ericstlouis"} rel="noopener noreferrer" target="_blank">
                 <li className="">
+                <Link href={"https://github.com/ericstlouis"} rel="noopener noreferrer" target="_blank">
                   <AiFillGithub />
-                </li>
                 </Link>
+                </li>
               </ul>
             </div>
           </div>
 
-          {/* Work */}
           <div className="flex flex-col items-center mb-10">
             <h2 className="text-lg font-semibold tracking-widest mb-2 underline underline-offset-4">Work</h2>
             <ol className="text-base font-light flex flex-col items-center w-12/12 space-y-4 ">
-              {/* arrows has to go next to description */}
               <li>
-                TELLER - An application for story tellers ➡️
+               <p> TELLER - An application for story tellers ➡️</p>
               </li>
               <li>
-                ARA - A chrome extension that aggrega...➡️
+                <p>ARA - A chrome extension that aggrega...➡️</p>
               </li>
             </ol>
           </div>
 
-          {/* CTA Boruto 😈 */}
           <div className="flex items-center justify-center">
             <Link  href={"https://youtu.be/B5c2PkSRfc8"} rel="noopener noreferrer" target="_blank">
               <div className="py-20 px-16 bg-gray-400 rounded-xl bg-opacity-20 w-full">
-                 <h4 className="">
+                 <h5 className="">
                   Click to witness greatness
-                  </h4>
+                  </h5>
               </div>
             </Link>
           </div>
 
-          {/* footer */}
           <div className="mt-auto mb-4">
             <h4 className="font-thin hover:text-pink-400">Built & Designed by shinobi🥷🏽</h4>
             </div>
-              
-
         </div>
     </div>
+    
 
   )
 }
