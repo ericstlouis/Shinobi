@@ -52,7 +52,7 @@ export default function Home() {
                <p> TELLER - An application for story tellers ➡️</p>
               </li>
               <li>
-                <p>ARA - A chrome extension that aggrega...➡️</p>
+                <p>Project ARA: A Saas for businesses➡️</p>
               </li>
             </ol>
           </div>
